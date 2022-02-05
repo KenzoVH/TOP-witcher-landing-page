@@ -1,0 +1,166 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/background.gif");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*
+CSS for Header
+*/
+
+.header {
+    background-color: rgba(185, 0, 22, .75);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0 10%;
+    box-shadow: 2px 2px 10px -5px #000000;
+}
+
+.logo {
+    height: 60px;
+}
+
+.links-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*
+CSS for content (About)
+*/
+
+.content {
+    padding: 0 10%;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 64px;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.screenshot {
+    max-width: 100%;
+}
+
+/*
+CSS for content (characters)
+*/
+
+.characters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0px;
+}
+
+.character {
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.title {
+    padding:0 0 24px 0;
+}
+
+.description {
+    padding-top: 6px;
+    text-align: center;
+}
+
+/*
+CSS for content (quote)
+*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+}
+
+.text {
+    align-self: flex-start;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+/*
+CSS for content (store page)
+*/
+
+.steam-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.description-game {
+    display: flex;
+    flex-direction: column;
+}
+
+.steam-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*
+CSS for footer
+*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}

@@ -5,40 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
     <title>The Witcher 3: Wild Hunt</title>
 </head>
 
 <body>
     <div class="header">
         <div class="logo">
-            <img src="./img/logo.png" alt="Witcher 3 Logo">
+            <img src="./img/logo.png" alt="Witcher 3 Logo" class="logo">
         </div>
         <div class="links">
-            <ul>
-                <li>About</li>
-                <li>Characters</li>
-                <li>Quote</li>
-                <li>Wiki</li>
+            <ul class="links-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#quote">Quote</a></li>
+                <li><a href="#wiki">Wiki</a></li>
             </ul>
         </div>
     </div>
     <div class="content">
         <div class="about" id="about">
+            <div class="screenshot">
+                <img src="./img/scene.jpg" alt="Witcher 3 Screenshot" class="screenshot">
+            </div>
             <div class="intro">
                 <div class="title">The Witcher 3: Wild Hunt</div>
                 <div class="undertitle">
                     As war rages on throughout the Northern Realms, you take on the greatest contract of your life —
                     tracking down the Child of Prophecy, a living weapon that can alter the shape of the world.
                 </div>
-                <button class="store-page"><a
+                <div class="buttons">
+                    <button class="store-page"><a
                         href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/">Steam
                         Store</a></button>
-                <button class="store-page"><a
+                    <button class="store-page"><a
                         href="https://www.gog.com/en/game/the_witcher_3_wild_hunt">GOG Store
                         </a></button>
-            </div>
-            <div class="screenshot">
-                <img src="./img/scene.jpg" alt="Witcher 3 Screenshot">
+                </div>
             </div>
         </div>
         <div class="characters" id="characters">
@@ -47,19 +50,19 @@
             </div>
             <div class="container">
                 <div class="image">
-                    <img src="./img/geralt.jpg" alt="Geralt of Rivia">
+                    <img src="./img/geralt.jpg" alt="Geralt of Rivia" class="character">
                     <div class="description">Geralt of Rivia</div>
                 </div>
                 <div class="image">
-                    <img src="./img/ciri.jpg" alt="Cirilla Fiona Elen Riannon">
+                    <img src="./img/ciri.jpg" alt="Cirilla Fiona Elen Riannon" class="character">
                     <div class="description">Cirilla Fiona Elen Riannon</div>
                 </div>
                 <div class="image">
-                    <img src="./img/yennefer.png" alt="Yennefer of Vengerberg">
+                    <img src="./img/yennefer.png" alt="Yennefer of Vengerberg" class="character">
                     <div class="description">Yennefer of Vengerberg</div>
                 </div>
                 <div class="image">
-                    <img src="./img/dandelion.jpg" alt="Dandelion the Bard">
+                    <img src="./img/dandelion.jpg" alt="Dandelion the Bard" class="character">
                     <div class="description">Dandelion the Bard</div>
                 </div>
             </div>
@@ -75,7 +78,7 @@
         </div>
         <div class="steam">
             <div class="steam-container">
-                <div class="description">
+                <div class="description-game">
                     <div class="steam-title">Interested in the game?</div>
                     <div class="steam-undertitle">The game is available on the Steam Store and GOG Galaxy</div>
                 </div>
